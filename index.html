@@ -46,15 +46,20 @@
 			<div class="link-container">
 				
 				<a href="http://play.google.com/store" target="_blank">
-					<img src="assets/google-play-button.PNG" alt="" />
+					<img src="assets/google-play-button.PNG" alt="" loading="lazy" />
 				</a>
 				<a href="http://www.apple.com/store" target="_blank">
-					<img src="assets/app-store-button.PNG" alt="" />
+					<img src="assets/app-store-button.PNG" alt="" loading="lazy" />
 				</a>
 
 				<h2>download the app</h2>
 
 			</div>
 		</div>
-	</body>
+		<script>
+            window.addEventListener('load', function() {
+                document.body.classList.add('loaded');
+            });
+        </script>
+    </body>
 </html>
